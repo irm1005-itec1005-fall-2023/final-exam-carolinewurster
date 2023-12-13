@@ -262,3 +262,18 @@ footer {
   font-size:10px;
   
 }
+
+.column {
+  display: flex;
+  justify-content: space-between;
+  /* Adjust styling as needed */
+}
+
+.work-item {
+  width: 45%; /* Adjust width of each item */
+  margin-bottom: 20px; /* Add margin between items */
+}
+
+.work-item img {
+  width: 100%; /* Ensure images fill their container */
+}
