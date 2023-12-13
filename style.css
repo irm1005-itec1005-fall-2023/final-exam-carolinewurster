@@ -208,7 +208,7 @@ h1 {
 }
 
 .call {
-  width: 100%;
+  width: 80%;
   height: 180px;
   right:100px; 
   background-color: #cdb4db;
@@ -260,6 +260,7 @@ footer {
 .column {
   display: flex;
   justify-content: space-between;
+  /* Adjust styling as needed */
 }
 
 .work-item {
@@ -268,5 +269,10 @@ footer {
 }
 
 .work-item img {
-  width: 100%;
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  border: 5px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
 }
