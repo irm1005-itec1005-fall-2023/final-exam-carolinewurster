@@ -207,17 +207,23 @@ h1 {
   margin-left: 10px;
 }
 
-.call {
+.call-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 80%;
-  height: 180px;
-  right:100px; 
+  height: 200px;
+  margin: 0 auto; /* Center horizontally */
   background-color: #cdb4db;
-  color:#0c0a3e; 
-  border-radius:20px;
-  align-items:center;
-  justify-content:center;
-  margin-left:50px;
-  margin-right:50px;
+  color: #0c0a3e;
+  border-radius: 20px;
+  margin-top: 20px; /* Adjust margin as needed */
+  margin-bottom: 20px; /* Adjust margin as needed */
+  padding: 20px;
+}
+
+.call h4 {
+  font-size:27px;
 }
 
 footer {
@@ -260,7 +266,6 @@ footer {
 .column {
   display: flex;
   justify-content: space-between;
-  /* Adjust styling as needed */
 }
 
 .work-item {
@@ -275,4 +280,5 @@ footer {
   border: 5px solid black;
   margin-left: 20px;
   margin-right: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
