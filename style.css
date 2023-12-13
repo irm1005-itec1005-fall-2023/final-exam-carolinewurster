@@ -181,3 +181,14 @@ h1 {
   color:#0c0a3e; 
   border-radius:20px;
 }
+
+.contact-button2 {
+  background-color: #ffafcc; 
+  color: black; 
+  padding: 15px 16px; 
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px; 
+  font-size:16px;
+}
