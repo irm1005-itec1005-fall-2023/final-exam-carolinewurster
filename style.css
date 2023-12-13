@@ -75,13 +75,18 @@ header {
 }
 
 .contact-button {
+  position:fixed;
+  top: 20px;
+  right: 20px; 
   background-color: rgb(0, 0, 0); 
   color: rgb(255, 255, 255); 
-  padding: 8px 16px; 
+  padding: 15px 16px; 
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-left: 10px; 
+  border-radius:10px;
+  cursor: pointer; 
+  text-align: center;
+  text-decoration: none;
+  
 }
 
 h1 {
