@@ -266,6 +266,7 @@ footer {
 .column {
   display: flex;
   justify-content: space-between;
+  /* Adjust styling as needed */
 }
 
 .work-item {
