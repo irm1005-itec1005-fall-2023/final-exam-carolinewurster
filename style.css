@@ -194,13 +194,13 @@ h1 {
 }
 
 .amy-pic{
-  height:50px;
-  width:50px;
+  height:100px;
+  width:100px;
   border-radius:20px;
 }
 
 .tutorial-3 {
-  height:50px;
-  width:50px;
+  height:100px;
+  width:10dvh;
   border-radius:20px;
 }
